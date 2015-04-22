@@ -12,7 +12,7 @@ resolvers ++= Seq("Sonatype Snapshots" at "https://oss.sonatype.org/content/repo
 
 libraryDependencies ++= Seq(
   ws,
-  "org.reactivemongo" %% "play2-reactivemongo" % "0.11.0-SNAPSHOT",
+  "org.reactivemongo" %% "play2-reactivemongo" % "0.10.5.0.akka23" withSources(),
   "com.softwaremill.macwire" %% "macros" % "0.6",
   "com.softwaremill.macwire" %% "runtime" % "0.6",
   "org.scalatestplus" %% "play" % "1.1.0" % "test",
